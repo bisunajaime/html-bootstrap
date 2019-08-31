@@ -1,0 +1,186 @@
+*{
+    font-family: 'B612', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background-color: black;
+}
+
+.text-yellow{
+    color: #FFEB3B;
+}
+
+a{
+    color: #FFEB3B;
+}
+
+.slide{
+    height: 100vh;
+}
+
+.caption{
+    transform: translate(-40%,-20%);
+}
+
+.car-img{
+    height: 100vh;
+}
+
+a.custom{
+    border-radius: 0px;
+    background-color: transparent;
+    border: 1px solid yellow;
+}
+
+a.custom:hover {
+    transition: 0.5s;
+    border-radius: 0px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+}
+
+.head-padding{
+    padding: 100px 0;
+}
+
+.title{
+    color: yellow;
+    font-size: 50px;
+}
+
+.title-rt{
+    color: yellow;
+    font-size: 50px;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.border-yellow{
+    border: 1px solid yellow;
+}
+
+hr{
+    background-color: yellow;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.lot{
+    height: 60vh;
+}
+
+.ab-list{
+    color: yellow;
+}
+
+.about-me-text{
+    font-size: 25px;
+}
+
+.pSize{
+    font-size: 20px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.lot-1{
+    height: 50vh;
+}
+
+.lot-2{
+    height: 50vh;
+}
+
+.header{
+    font-size: 90px;
+}
+
+.title-lo{
+    font-size: 70px;
+}
+
+
+@media screen and (max-width : 320px){
+    body{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 10px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .lot{
+        height: 30vh;
+    }
+
+    .about-me-text {
+        font-size: 15px;
+    }
+
+    .fsize{
+        font-size: 10px;
+    }
+
+    .pSize{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width : 1204px){
+    body{
+        font-size: 15px;
+    }
+
+    .lot-1{
+        height: 23vh;
+    }
+
+    .lot-2{
+        height: 24vh;
+    }
+
+    .about-me-text{
+        font-size: 10px;
+    }
+
+    .header{
+        font-size: 30px;
+    }
+
+    .title-lo{
+        font-size: 40px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .title-rt{
+        font-size: 30px;
+    }
+
+    .fsize {
+        font-size: 20px;
+    }
+    
+    .pSize{
+        font-size: 15px;
+    }
+
+    .justify{
+        font-size: 10px;
+    }
+}
